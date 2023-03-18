@@ -22,8 +22,8 @@ This is a solution to the [Notifications page challenge on Frontend Mentor](http
 
 ### Links
 
-- Solution URL: [Solution URL](https://your-solution-url.com)
-- Live Site URL: [Live site URL](https://your-live-site-url.com)
+- Solution URL: [Solution URL](https://github.com/HassanMak29/frontend-mentor-notifications-page)
+- Live Site URL: [Live site URL](hhttps://frontend-mentor-notifications-hassan.netlify.app/)
 
 ## My process
 
@@ -47,5 +47,5 @@ I learned how to wrap styled paragraph.
 
 ## Author
 
-- Website - [Abdelmounaim Hassan Makhloufi](https://www.your-site.com)
+- Website - [Abdelmounaim Hassan Makhloufi](https://portfolio-hassan.netlify.app/)
 - Frontend Mentor - [@HassanMak29](https://www.frontendmentor.io/profile/HassanMak29)
