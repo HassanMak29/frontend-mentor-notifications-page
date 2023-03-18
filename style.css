@@ -103,6 +103,7 @@ main {
   gap: 1.5rem;
   padding: 1.5rem;
   border-radius: 1rem;
+  cursor: pointer;
 }
 
 .notification .avatar {
@@ -212,6 +213,10 @@ main {
 
 .align-start {
   align-items: flex-start;
+}
+
+.hidden {
+  display: none;
 }
 
 @media only screen and (max-width: 375px) {

@@ -27,7 +27,11 @@
         <div class="mark-as-read">Mark all as read</div>
       </div>
       <div class="content">
-        <div class="notification unread">
+        <div
+          class="notification unread"
+          title="Mark as read"
+          onclick="toggleElementReadUnread(this)"
+        >
           <img
             class="avatar"
             src="/assets/images/avatar-mark-webber.webp"
@@ -38,12 +42,16 @@
               <span class="name">Mark Webber</span>
               <span class="action-done">reacted to your recent post</span>
               <span class="activity-link">My first tournament today!</span>
-              <span class="alert"></span>
+              <span id="alert" class="alert"></span>
             </p>
             <div class="time-ago">1m ago</div>
           </div>
         </div>
-        <div class="notification unread">
+        <div
+          class="notification unread"
+          title="Mark as read"
+          onclick="toggleElementReadUnread(this)"
+        >
           <img
             class="avatar"
             src="/assets/images/avatar-angela-gray.webp"
@@ -53,12 +61,16 @@
             <p class="detail">
               <span class="name">Angela Gray</span>
               <span class="action-done">followed you</span>
-              <span class="alert"></span>
+              <span id="alert" class="alert"></span>
             </p>
             <div class="time-ago">5m ago</div>
           </div>
         </div>
-        <div class="notification unread">
+        <div
+          class="notification unread"
+          title="Mark as read"
+          onclick="toggleElementReadUnread(this)"
+        >
           <img
             class="avatar"
             src="/assets/images/avatar-jacob-thompson.webp"
@@ -69,12 +81,16 @@
               <span class="name">Jacob Thompson</span>
               <span class="action-done">has joined your group</span>
               <span class="activity-link group">Chess club</span>
-              <span class="alert"></span>
+              <span id="alert" class="alert"></span>
             </p>
             <div class="time-ago">1 day ago</div>
           </div>
         </div>
-        <div class="notification align-start">
+        <div
+          class="notification align-start"
+          title="Mark as read"
+          onclick="toggleElementReadUnread(this)"
+        >
           <img
             class="avatar"
             src="/assets/images/avatar-rizky-hasanuddin.webp"
@@ -84,6 +100,7 @@
             <p class="detail">
               <span class="name">Rizky Hasanuddin</span>
               <span class="action-done">sent you a private message</span>
+              <span id="alert"></span>
             </p>
             <div class="time-ago">5 day ago</div>
             <div class="message">
@@ -93,7 +110,11 @@
             </div>
           </div>
         </div>
-        <div class="notification">
+        <div
+          class="notification"
+          title="Mark as read"
+          onclick="toggleElementReadUnread(this)"
+        >
           <img
             class="avatar"
             src="/assets/images/avatar-kimberly-smith.webp"
@@ -103,6 +124,7 @@
             <p class="detail">
               <span class="name">Kimberly Smith</span>
               <span class="action-done">commented on your picture</span>
+              <span id="alert"></span>
             </p>
             <div class="time-ago">1 week ago</div>
           </div>
@@ -112,7 +134,11 @@
             alt="chess player"
           />
         </div>
-        <div class="notification align-start">
+        <div
+          class="notification align-start"
+          title="Mark as read"
+          onclick="toggleElementReadUnread(this)"
+        >
           <img
             class="avatar"
             src="/assets/images/avatar-nathan-peterson.webp"
@@ -125,11 +151,16 @@
               <span class="activity-link"
                 >5 end-game strategies to increase your win rate</span
               >
+              <span id="alert"></span>
             </p>
             <div class="time-ago">2 week ago</div>
           </div>
         </div>
-        <div class="notification">
+        <div
+          class="notification"
+          title="Mark as read"
+          onclick="toggleElementReadUnread(this)"
+        >
           <img
             class="avatar"
             src="/assets/images/avatar-anna-kim.webp"
@@ -140,6 +171,7 @@
               <span class="name">Anna Kim</span>
               <span class="action-done">left the group</span>
               <span class="activity-link group">Chess Club</span>
+              <span id="alert"></span>
             </p>
             <div class="time-ago">2 week ago</div>
           </div>
