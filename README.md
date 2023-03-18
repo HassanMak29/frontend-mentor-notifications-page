@@ -23,7 +23,7 @@ This is a solution to the [Notifications page challenge on Frontend Mentor](http
 ### Links
 
 - Solution URL: [Solution URL](https://github.com/HassanMak29/frontend-mentor-notifications-page)
-- Live Site URL: [Live site URL](hhttps://frontend-mentor-notifications-hassan.netlify.app/)
+- Live Site URL: [Live site URL](https://frontend-mentor-notifications-hassan.netlify.app/)
 
 ## My process
 
