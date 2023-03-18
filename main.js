@@ -54,9 +54,18 @@ const toggleAllAlertsReadUnread = () => {
 };
 
 const toggleElementReadUnread = (e) => {
+  num.classList.remove("hidden");
   e.classList.toggle("unread");
   e.querySelector("#alert").classList.toggle("alert");
-  if (e.classList.contains("unread")) e.setAttribute("title", "Mark as read");
-  if (!e.classList.contains("unread"))
+  if (e.classList.contains("unread")) {
+    e.setAttribute("title", "Mark as read");
+    num.textContent =
+      num.textContent === "" ? "1" : `${parseInt(num.textContent) + 1}`;
+  }
+  if (!e.classList.contains("unread")) {
+    num.textContent =
+      num.textContent === "1" ? "" : `${parseInt(num.textContent) - 1}`;
+    if (num.textContent === "") num.classList.add("hidden");
     e.setAttribute("title", "Mark as unread");
+  }
 };
